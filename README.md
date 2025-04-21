@@ -1,6 +1,4 @@
----
 
-```markdown
 # 📈 Contribcast
 
 **AI-powered GitHub contribution forecasting, issue suggestion, and productivity assistant — straight from your terminal.**
