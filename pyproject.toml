@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contribcast"
+version = "0.1.1"
+authors = [
+  { name="Adesoji Alu", email="adesoji.alu@gmail.com" }
+]
+description = "AI-powered GitHub contribution forecasting and automation agent"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+keywords = ["github", "contributions", "cli", "ai", "openai", "productivity"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Environment :: Console",
+  "Topic :: Software Development :: Version Control :: Git"
+]
+
+dependencies = [
+  "requests",
+  "click",
+  "langchain",
+  "langchain-openai",
+  "openai",
+  "python-dotenv",
+  "seaborn",
+  "matplotlib",
+  "schedule",
+  "slack_sdk",
+  "twilio"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/adesoji1/contribcast"
+"Repository" = "https://github.com/adesoji1/contribcast"
+"Documentation" = "https://github.com/adesoji1/contribcast#readme"
+
+[project.scripts]
+contribcast = "contribcast.cli:main"
