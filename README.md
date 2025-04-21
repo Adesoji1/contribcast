@@ -1,5 +1,8 @@
+<p align="center">
+  <img src="Screenshot/contrib.svg" width="400" alt="Contribcast logo"/>
+</p>
 
-# 📈 Contribcast
+# Contribcast
 
 **AI-powered GitHub contribution forecasting, issue suggestion, and productivity assistant — straight from your terminal.**
 
